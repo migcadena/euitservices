@@ -1,0 +1,116 @@
+body {
+	background:linear-gradient(gray 0%, black 90%), 
+    linear-gradient(to right, lavender 0%, blue 90%), 
+    url('Images/background3.jpg') 0px,
+    url('Images/background3.jpg') ;
+  	background-blend-mode: screen, difference, lighten;
+  	color: white;
+  	text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+	
+	/* Formato del titulo */
+.tit1 {
+	font-family: 'Playball', cursive;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+.tit2{
+	font-family: 'Fira Sans Condensed', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+	/* Formato del navbar */
+.navbar-lewagon {
+  justify-content: space-between;
+  background:#040c6b;
+  opacity:0.94;
+  box-shadow: -1px 3px 14px 0px rgba(4,12,107,0.75);
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: .2rem 0.3rem;
+  font-size: 18px;
+}
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+.navbar-lewagon .navbar-brand img {
+  width: 220px;
+  padding: 0px;
+  border-style:solid;
+  border-color: #d8d9ed;
+  box-shadow: -1px 3px 14px 0px rgba(200,200,200,0.75);
+}
+.avatar {
+  width: 50px;
+  border-radius: 50%;
+}
+.avatar-large {
+  width: 96px;
+  border-radius: 9%;
+}
+	/* Formato del carousel */
+.carousel {
+    margin-left: 80px;
+    margin-right: 80px;
+    position: relative;
+}
+	/* Formato de cards */
+.card {
+	color: black;
+	background-color: #e8e8e8;
+}
+	/* Responsive tamano texto carousel */
+@media screen and (min-width: 601px) {
+  .carousel-caption {
+    font-size: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .carousel-caption {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .carousel-caption {
+    font-size: 60%;
+  }
+}
+	/* Formato del footer */
+.footer {
+  background: #040c6b;
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  padding: 0px 20px;
+  color: gray;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: white;
+  opacity: 0.75;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+	/* Formato opaca imagenes carousel */
+.drk:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:#000536;
+    opacity:0.5;
+}
