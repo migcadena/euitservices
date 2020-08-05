@@ -96,6 +96,8 @@ body {
   height: 40px;
   padding: 0px 20px;
   color: gray;
+  position: fixed;
+  bottom: 0;
 }
 .footer-links {
   display: flex;
