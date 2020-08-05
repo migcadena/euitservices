@@ -3,10 +3,10 @@ body {
     linear-gradient(to right, lavender 0%, blue 90%), 
     url('Images/background3.jpg') 0px,
     url('Images/background3.jpg') ;
+	background-size: 1000px;
   	background-blend-mode: screen, difference, lighten;
   	color: white;
   	text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-	background-size: 1000px
 }
 	
 	/* Formato del titulo */
