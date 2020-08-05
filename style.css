@@ -1,10 +1,5 @@
 body {
-	background:linear-gradient(gray 0%, black 90%), 
-    linear-gradient(to right, lavender 0%, blue 90%), 
-    url('Images/background3.jpg') 0px,
-    url('Images/background3.jpg') ;
-	background-size: 1000px;
-  	/*background-blend-mode: screen, difference, lighten;*/
+	background-image: linear-gradient(to bottom right, LIGHTSTEELBLUE,black); 
   	color: white;
   	text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
